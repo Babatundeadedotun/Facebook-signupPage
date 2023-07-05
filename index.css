@@ -1,0 +1,200 @@
+.container{
+    padding: 2%;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+hr {
+
+    margin-bottom: 20px;
+}
+.input{
+    width: 96%;
+    height: 30px;
+
+}
+
+summary{
+    text-align: left;
+}
+
+.dob{
+    width: 32%;
+    height: 30px;
+}
+
+.gender{
+
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 5px 5px;
+    width: 32%;
+}
+
+
+#gender {
+    margin-bottom: 10px;
+}
+
+
+.radio{
+
+    width: 5%;
+    margin-left: 68px;
+}
+
+
+.submit{
+
+   
+    background-color: green;
+     align-items: center;
+     height: 40px;
+     border-radius: 6px;
+     color: white;
+     text-decoration: solid;
+     width: 210px;
+     border-style: none;
+}
+
+.link{
+
+    text-decoration: none;
+}
+
+#name1 {
+
+    height: 30px;
+    border-radius: 5px;
+    width: 235px;
+}
+
+
+#name2 {
+
+    height: 30px;
+    border-radius: 5px;
+    width: 46%;
+    margin-left: 5px;
+}
+
+#cancelicon {
+
+    float: right;
+}
+
+@media screen and (max-width:376px) {
+    .container{
+        width: 80%;
+        margin-left: 6px;
+        padding: 30px;
+    }
+    #name2{
+        width: 82%;
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+    .input{
+        width: 80%;
+        margin-left: 5px;
+    }
+     
+    #days{
+        margin-left: 5px;
+        width: 30%;
+    }
+    #month{
+        width: 30%;
+    }
+    #year{
+        width: 30%;
+    }
+
+    .gender{
+
+        border: 1px solid;
+        border-radius: 3px;
+        padding: 5px 5px;
+        width: 192%;
+    }
+    
+    
+    #gender {
+        margin-bottom: 10px;
+    }
+    
+    
+    .radio{
+    
+        width: 5%;
+        margin-left: 10px;
+    }
+  
+}
+@media screen and (max-width:414px) {
+    .container{
+        width: 80%;
+        margin-left: 6px;
+        padding: 30px;
+    }
+    #name2{
+        width: 82%;
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+    .input{
+        width: 80%;
+        margin-left: 5px;
+    }
+     
+    #days{
+        margin-left: 5px;
+        width: 30%;
+    }
+    #month{
+        width: 30%;
+    }
+    #year{
+        width: 30%;
+    }
+
+    .gender{
+
+        border: 1px solid;
+        border-radius: 3px;
+        padding: 5px 5px;
+        width: 192%;
+    }
+    
+    
+    #gender {
+        margin-bottom: 10px;
+    }
+    
+    
+    .radio{
+    
+        width: 5%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:820px) {
+    .container{
+        width: 70%;
+        margin-left: 100px;
+        height: 70vh;
+    }
+}
+@media screen and (max-width:280px) {
+    .container{
+        width: 130% !important;
+        margin-left: -5px !important;
+        height: 120vh;
+        margin: 50px;
+    }
+}
